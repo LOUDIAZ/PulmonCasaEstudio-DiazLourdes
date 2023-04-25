@@ -1,0 +1,409 @@
+//paleta de colores 
+$negro: black;
+$blanco: white;
+$violeta: rgb(124, 124, 247);
+$gris:#5a5858;
+
+//fonts
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../assets/Font/RUBIK-MEDIUM.TTF);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik-Black;
+    src: url(../assets/Font/RUBIK-BLACK.TTF);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../assets/Font/RUBIK-BOLD.TTF);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../assets/Font/RUBIK-LIGHT.TTF);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../assets/Font/RUBIK-REGULAR.TTF);
+    font-display: swap;
+}
+
+$fontlight:Rubik-Light;
+$fontmed:Rubik-Medium;
+$fontreg:Rubik-Regular;
+$fontbold:Rubik-Bold;
+$fontblack:Rubik-Black;
+
+//size font
+$xs:16px;
+$small:18px;
+$med:20px;
+$large:25px;
+$xl:40px;
+
+//width
+$var1:100%;
+$var2:50%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//index
+//header
+.navbar {
+    height: 85px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .navbar-brand {
+        &:hover {
+            background-color: $violeta;
+            border-radius: 3px;
+        }
+    }
+
+    #collapsibleNavbar {
+        justify-content: end;
+        background-color: $negro;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    .nav-link {
+        color: $blanco;
+        text-transform: uppercase;
+        font-family: $fontmed;
+        font-size: $xs;
+
+        &:hover {
+            background-color: $violeta;
+            color: $blanco;
+            border-radius: 3px;
+        }
+    }
+
+    .nav-icon {
+        padding: 5px;
+
+        &:hover {
+            background-color: $violeta;
+            color: $blanco;
+            border-radius: 3px;
+        }
+    }
+}
+
+
+//home
+.home {
+    background-image: url(../assets/imagenes/Galería/home.avif);
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+    width: 100%;
+
+
+    .texto {
+        padding-top: 200px;
+    }
+
+    p {
+        text-align: center;
+        font-family: $fontbold;
+        font-size: $large;
+        text-shadow: 0 0 3px $negro;
+        text-transform: uppercase;
+    }
+}
+
+//contacto
+#contacto {
+
+    h2 {
+        color: $negro;
+        font-family: $fontbold;
+        font-size: $large;
+        text-transform: initial;
+        padding-top: 40px;
+        padding-left: 50px;
+        margin-bottom: 0;
+    }
+
+    .formulario {
+        font-family: $fontreg;
+        font-size: $small;
+        padding: 50px;
+
+        .btn-link {
+            background-color: $violeta;
+            color: $blanco;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 0;
+            text-shadow: 0 0 2px $negro;
+            border: solid 1px $negro;
+            font-family: $fontbold;
+
+            &:hover {
+                color: $negro;
+                text-shadow: none;
+                border: solid 1px $negro;
+            }
+        }
+    }
+
+    .mapa {
+        padding: 50px;
+
+        h3 {
+            font-family: $fontreg;
+            font-size: $small;
+            text-transform: capitalize;
+        }
+
+        h4 {
+            font-family: $fontlight;
+            text-transform: capitalize;
+            font-size: $small;
+        }
+
+        .map-responsive {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+            height: 0;
+
+            iframe {
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+        }
+    }
+}
+
+//footer
+footer {
+    margin-top: 20px;
+
+    .logofooter {
+        width: 150px;
+        height: 40px;
+        &:hover {
+            background-color: $violeta;
+        }
+    }
+
+    .navfooter {
+        list-style: none;
+        margin-top: 10px;
+        padding: 0px;
+    }
+
+    .btn {
+        &:hover {
+            background-color: $violeta;
+            border-radius: 3px;
+        }
+    }
+}
+
+//sesiones
+.sesiones {
+    margin-top: 60px;
+
+
+    .textosesiones img {
+        height: 18%;
+        margin-left: 50px;
+    }
+
+    h3 {
+        font-size: $med;
+        margin-top: 30px;
+        text-align: justify;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+
+    .btn {
+        margin-top: 30px;
+        padding-left: 0px;
+        height: 60%;
+    }
+
+    .fotosesiones img {
+        padding: 10px;
+    }
+}
+
+//talleres
+
+.textoactividades {
+    padding-left: 80px;
+    padding-top: 80px;
+
+    img {
+        height: 23%;
+    }
+
+    h3 {
+        margin-top: 30px;
+        padding-right: 80px;
+        text-align: justify;
+        font-size: $small;
+    }
+}
+
+.fotopulmonabierto {
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.textotalleres {
+    padding-left: 80px;
+    padding-top: 30px;
+
+    h3 {
+        margin-top: 30px;
+        text-align: justify;
+        padding-right: 80px;
+        font-size: $small;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+.fototaller {
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.textosismolab {
+    padding-left: 80px;
+    padding-top: 40px;
+
+    h3 {
+        margin-top: 30px;
+        text-align: justify;
+        padding-right: 80px;
+        font-size: $small;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+.fotosismolab {
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+//galeria
+.carousel-item {
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.galeria {
+    background-color: $gris;
+}
+
+//artistas
+.artistas {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    padding: 90px;
+    grid-gap: 25px;
+    font-size: $med;
+    font-family: $fontmed;
+    color: $blanco;
+    text-shadow: 0 0 10px $negro;
+    text-align: center;
+
+    .img {
+        background-color: $violeta;
+        border: 2px solid $negro;
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%);
+    }
+
+    .img:hover {
+        transform: scale(1.05);
+        transition: all 0.9s;
+        filter: grayscale(0%);
+    }
+
+    .img1 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_LV-chico_1.avif);
+    }
+
+    .img2 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_NoSoyJulix-chico.avif);
+    }
+
+    .img3 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_Ren-grande.avif);
+    }
+
+    .img4 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos\ Web_Jerre\ chico.png);
+    }
+
+    .img5 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_Guazuncho-chico.avif);
+    }
+
+    .img6 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_Ulmo-Chico.avif);
+    }
+
+    .img7 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_Bardo-grande.avif);
+    }
+
+    .img8 {
+        background-image: url(../assets/imagenes/Galería/artistas/Fotos-Web_Susceptibles-chico.avif);
+    }
+
+    @media only screen and (min-width:480px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    @media only screen and (min-width: 1024px) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+}
