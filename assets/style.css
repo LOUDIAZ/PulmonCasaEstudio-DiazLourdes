@@ -36,7 +36,7 @@
   padding-right: 40px;
 }
 .navbar .navbar-brand:hover {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
   border-radius: 3px;
 }
 .navbar #collapsibleNavbar {
@@ -53,7 +53,7 @@
   font-size: 16px;
 }
 .navbar .nav-link:hover {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
   color: white;
   border-radius: 3px;
 }
@@ -61,7 +61,7 @@
   padding: 5px;
 }
 .navbar .nav-icon:hover {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
   color: white;
   border-radius: 3px;
 }
@@ -99,11 +99,11 @@
   padding: 50px;
 }
 #contacto .formulario .btn-link {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  border-radius: 0;
+  border-radius: 3px;
   text-shadow: 0 0 2px black;
   border: solid 1px black;
   font-family: Rubik-Bold;
@@ -141,14 +141,14 @@
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 footer .logofooter {
   width: 150px;
   height: 40px;
 }
 footer .logofooter:hover {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
 }
 footer .navfooter {
   list-style: none;
@@ -156,23 +156,24 @@ footer .navfooter {
   padding: 0px;
 }
 footer .btn:hover {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
   border-radius: 3px;
 }
 
 .sesiones {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 .sesiones .textosesiones img {
   height: 18%;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 .sesiones h3 {
-  font-size: 20px;
+  font-family: Rubik-Medium;
+  font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-left: 50px;
-  padding-right: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .sesiones .btn {
   margin-top: 30px;
@@ -180,67 +181,79 @@ footer .btn:hover {
   height: 60%;
 }
 .sesiones .fotosesiones img {
-  padding: 10px;
+  padding-left: 80px;
+  padding-right: 60px;
 }
 
 .textoactividades {
-  padding-left: 80px;
+  padding-left: 90px;
   padding-top: 80px;
 }
 .textoactividades img {
   height: 23%;
+  margin-top: 60px;
 }
 .textoactividades h3 {
-  margin-top: 30px;
-  padding-right: 80px;
-  text-align: justify;
+  font-family: Rubik-Medium;
   font-size: 18px;
+  margin-top: 30px;
+  padding-right: 90px;
+  text-align: justify;
 }
 
 .fotopulmonabierto {
   padding-top: 80px;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 .textotalleres {
-  padding-left: 80px;
-  padding-top: 30px;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+.textotalleres h2 {
+  font-family: Rubik-Bold;
+  font-size: 25px;
 }
 .textotalleres h3 {
+  font-family: Rubik-Medium;
+  font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 80px;
-  font-size: 18px;
+  padding-right: 90px;
 }
 .textotalleres .btn {
   margin-top: 20px;
+  border: solid 2px #3464cc;
 }
 
 .fototaller {
   padding-top: 30px;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 .textosismolab {
   padding-left: 80px;
-  padding-top: 40px;
+  padding-top: 70px;
+}
+.textosismolab h2 {
+  font-family: Rubik-Bold;
+  font-size: 25px;
 }
 .textosismolab h3 {
+  font-family: Rubik-Medium;
+  font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 80px;
-  font-size: 18px;
+  padding-right: 90px;
 }
 .textosismolab .btn {
   margin-top: 20px;
+  border: solid 2px #3464cc;
 }
 
 .fotosismolab {
   padding-top: 30px;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 .carousel-item {
@@ -268,7 +281,7 @@ footer .btn:hover {
   text-align: center;
 }
 .artistas .img {
-  background-color: rgb(124, 124, 247);
+  background-color: #3464cc;
   border: 2px solid black;
   background-size: cover;
   background-position: center;
