@@ -51,7 +51,7 @@
   color: white;
   text-transform: uppercase;
   font-family: Rubik-Medium;
-  font-size: 16px;
+  font-size: 14px;
 }
 .navbar .nav-link:hover {
   background-color: #3464cc;
@@ -88,7 +88,7 @@
 #contacto h2 {
   color: black;
   font-family: Rubik-Bold;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: initial;
   padding-top: 40px;
   padding-left: 50px;
@@ -96,7 +96,7 @@
 }
 #contacto .formulario {
   font-family: Rubik-Regular;
-  font-size: 18px;
+  font-size: 16px;
   padding: 50px;
 }
 #contacto .formulario .btn-link {
@@ -119,13 +119,13 @@
 }
 #contacto .mapa h3 {
   font-family: Rubik-Regular;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: capitalize;
 }
 #contacto .mapa h4 {
   font-family: Rubik-Light;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 16px;
 }
 #contacto .mapa .map-responsive {
   overflow: hidden;
@@ -163,68 +163,84 @@ footer .btn:hover {
 
 main .sesiones {
   background-color: black;
-  padding-top: 80px;
+  padding: 60px 160px 60px 160px;
   border-top: solid 2px #3464cc;
+  align-self: center;
 }
-main .sesiones .textosesiones img {
-  margin-left: 60px;
+@media only screen and (max-width: 480px) {
+  main .sesiones {
+    padding: 40px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  main .sesiones {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  main .sesiones .textosesiones img {
+    padding-top: 20px;
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  main .sesiones .fotosesiones {
+    padding-right: 50px;
+  }
 }
 main .sesiones h3 {
   color: white;
   font-family: Rubik-Medium;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 30px;
   text-align: justify;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 main .sesiones .btn {
-  margin-top: 30px;
   padding-left: 0px;
   padding-bottom: 40px;
 }
-main .sesiones .fotosesiones img {
-  padding-left: 60px;
-  padding-right: 50px;
-}
 
 .actividades {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 50px 90px 50px 90px;
+}
+@media only screen and (max-width: 480px) {
+  .actividades {
+    padding: 20px 30px 20px 30px;
+  }
 }
 .actividades .textoactividades {
-  padding-left: 40px;
-  padding-top: 40px;
+  align-self: center;
 }
 .actividades .textoactividades img {
-  height: 23%;
-  margin-top: 60px;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .actividades .textoactividades img {
+    width: 90%;
+  }
 }
 .actividades .textoactividades h3 {
   font-family: Rubik-Medium;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 30px;
-  padding-right: 40px;
   text-align: justify;
 }
 .actividades .fotopulmonabierto {
-  padding-top: 40px;
-  padding-left: 40px;
+  padding-top: 30px;
 }
 .actividades .textotalleres {
-  padding-left: 40px;
-  padding-top: 40px;
+  align-self: center;
 }
 .actividades .textotalleres h2 {
   font-family: Rubik-Bold;
-  font-size: 25px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 .actividades .textotalleres h3 {
   font-family: Rubik-Medium;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 40px;
 }
 .actividades .textotalleres .btn {
   margin-top: 20px;
@@ -232,22 +248,20 @@ main .sesiones .fotosesiones img {
 }
 .actividades .fototaller {
   padding-top: 30px;
-  padding-left: 40px;
 }
 .actividades .textosismolab {
-  padding-left: 40px;
-  padding-top: 60px;
+  align-self: center;
 }
 .actividades .textosismolab h2 {
   font-family: Rubik-Bold;
-  font-size: 25px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 .actividades .textosismolab h3 {
   font-family: Rubik-Medium;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 40px;
 }
 .actividades .textosismolab .btn {
   margin-top: 20px;
@@ -255,7 +269,6 @@ main .sesiones .fotosesiones img {
 }
 .actividades .fotosismolab {
   padding-top: 30px;
-  padding-left: 40px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -283,7 +296,7 @@ main .sesiones .fotosesiones img {
   grid-template-rows: repeat(8, 200px);
   padding: 90px;
   grid-gap: 25px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Rubik-Medium;
   color: white;
   text-shadow: 0 0 10px black;

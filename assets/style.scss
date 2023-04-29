@@ -42,11 +42,11 @@ $fontbold:Rubik-Bold;
 $fontblack:Rubik-Black;
 
 //size font
-$xs:16px;
-$small:18px;
-$med:20px;
-$large:25px;
-$xl:40px;
+$xs:14px;
+$small:16px;
+$med:18px;
+$large:20px;
+$xl:25px;
 
 //width
 $var1:100%;
@@ -123,7 +123,7 @@ $var2:50%;
     p {
         text-align: center;
         font-family: $fontbold;
-        font-size: $large;
+        font-size: $xl;
         text-shadow: 0 0 3px $negro;
         text-transform: uppercase;
     }
@@ -227,12 +227,29 @@ footer {
 //sesiones
 main .sesiones {
     background-color: $negro;
-    padding-top: 80px;
+    padding: 60px 160px 60px 160px;
     border-top: solid 2px $violeta;
+    align-self: center;
 
+    @media only screen and (max-width:480px) {
+        padding: 40px;
+    }
+
+    @media only screen and (min-width:481px)and (max-width: 900px) {
+        padding: 50px;
+    }
 
     .textosesiones img {
-        margin-left: 60px;
+        @media only screen and (max-width:768px) {
+            padding-top: 20px;
+            width: 60%;
+        }
+    }
+
+    .fotosesiones {
+        @media only screen and (min-width:1023px) {
+            padding-right: 50px;
+        }
     }
 
     h3 {
@@ -241,58 +258,53 @@ main .sesiones {
         font-size: $small;
         margin-top: 30px;
         text-align: justify;
-        padding-left: 60px;
-        padding-right: 60px;
-
     }
 
     .btn {
-        margin-top: 30px;
         padding-left: 0px;
         padding-bottom: 40px;
-    }
-
-    .fotosesiones img {
-        padding-left: 60px;
-        padding-right: 50px;
     }
 }
 
 //actividades
 .actividades {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 50px 90px 50px 90px;
+
+    @media only screen and (max-width:480px) {
+        padding: 20px 30px 20px 30px;
+    }
+
 
     .textoactividades {
-        padding-left: 40px;
-        padding-top: 40px;
+        align-self: center;
 
         img {
-            height: 23%;
-            margin-top: 60px;
+            padding-top: 20px;
+
+            @media only screen and (max-width:480px) {
+                width: 90%;
+            }
         }
 
         h3 {
             font-family: $fontmed;
             font-size: $small;
             margin-top: 30px;
-            padding-right: 40px;
             text-align: justify;
         }
     }
 
     .fotopulmonabierto {
-        padding-top: 40px;
-        padding-left: 40px;
+        padding-top: 30px;
     }
 
     .textotalleres {
-        padding-left: 40px;
-        padding-top: 40px;
+        align-self: center;
 
         h2 {
             font-family: $fontbold;
             font-size: $large;
+            padding-top: 20px;
         }
 
         h3 {
@@ -300,7 +312,6 @@ main .sesiones {
             font-size: $small;
             margin-top: 30px;
             text-align: justify;
-            padding-right: 40px;
         }
 
         .btn {
@@ -311,16 +322,15 @@ main .sesiones {
 
     .fototaller {
         padding-top: 30px;
-        padding-left: 40px;
     }
 
     .textosismolab {
-        padding-left: 40px;
-        padding-top: 60px;
+        align-self: center;
 
         h2 {
             font-family: $fontbold;
             font-size: $large;
+            padding-top: 20px;
         }
 
         h3 {
@@ -328,7 +338,6 @@ main .sesiones {
             font-size: $small;
             margin-top: 30px;
             text-align: justify;
-            padding-right: 40px;
         }
 
         .btn {
@@ -339,7 +348,6 @@ main .sesiones {
 
     .fotosismolab {
         padding-top: 30px;
-        padding-left: 40px;
     }
 }
 
@@ -349,6 +357,7 @@ main .sesiones {
         padding: 40px 130px 40px 130px;
         width: 100%;
     }
+
     @media only screen and (min-width: 768px)and (max-width: 1023px) {
         padding: 40px 100px 40px 100px;
         width: 100%;
@@ -423,7 +432,6 @@ main .sesiones {
     @media only screen and (min-width:480px) {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
-
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
