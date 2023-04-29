@@ -182,7 +182,7 @@ main .sesiones {
 @media only screen and (max-width: 768px) {
   main .sesiones .textosesiones img {
     padding-top: 20px;
-    width: 60%;
+    width: 80%;
   }
 }
 @media only screen and (min-width: 1023px) {
