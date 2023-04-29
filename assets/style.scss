@@ -374,7 +374,7 @@ main .sesiones {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 200px);
-    padding: 90px;
+    padding: 40px;
     grid-gap: 25px;
     font-size: $med;
     font-family: $fontmed;
@@ -441,5 +441,6 @@ main .sesiones {
     @media only screen and (min-width: 1024px) {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 200px);
+        padding: 90px;
     }
 }

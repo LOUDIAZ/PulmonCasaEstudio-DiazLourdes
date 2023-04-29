@@ -296,7 +296,7 @@ main .sesiones .btn {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 200px);
-  padding: 90px;
+  padding: 40px;
   grid-gap: 25px;
   font-size: 18px;
   font-family: Rubik-Medium;
@@ -355,5 +355,6 @@ main .sesiones .btn {
   .artistas {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 200px);
+    padding: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
