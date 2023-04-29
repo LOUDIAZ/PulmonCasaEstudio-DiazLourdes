@@ -242,102 +242,104 @@ main .sesiones {
         text-align: justify;
         padding-left: 60px;
         padding-right: 60px;
-        
+
     }
 
     .btn {
         margin-top: 30px;
         padding-left: 0px;
-        height: 60%;
         padding-bottom: 40px;
     }
 
     .fotosesiones img {
         padding-left: 60px;
         padding-right: 50px;
-
     }
 }
 
 //actividades
+.actividades {
+padding-top: 30px;
+padding-bottom: 30px;
 
-.textoactividades {
-    padding-left: 80px;
-    padding-top: 80px;
+    .textoactividades {
+        padding-left: 40px;
+        padding-top: 40px;
 
-    img {
-        height: 23%;
-        margin-top: 60px;
+        img {
+            height: 23%;
+            margin-top: 60px;
+        }
+
+        h3 {
+            font-family: $fontmed;
+            font-size: $small;
+            margin-top: 30px;
+            padding-right: 40px;
+            text-align: justify;
+        }
     }
 
-    h3 {
-        font-family: $fontmed;
-        font-size: $small;
-        margin-top: 30px;
-        padding-right: 80px;
-        text-align: justify;
-    }
-}
-
-.fotopulmonabierto {
-    padding-top: 80px;
-    padding-left: 80px;
-}
-
-.textotalleres {
-    padding-left: 80px;
-    padding-top: 60px;
-
-    h2 {
-        font-family: $fontbold;
-        font-size: $large;
+    .fotopulmonabierto {
+        padding-top: 40px;
+        padding-left: 40px;
     }
 
-    h3 {
-        font-family: $fontmed;
-        font-size: $small;
-        margin-top: 30px;
-        text-align: justify;
-        padding-right: 80px;
+    .textotalleres {
+        padding-left: 40px;
+        padding-top: 40px;
+
+        h2 {
+            font-family: $fontbold;
+            font-size: $large;
+        }
+
+        h3 {
+            font-family: $fontmed;
+            font-size: $small;
+            margin-top: 30px;
+            text-align: justify;
+            padding-right: 40px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            border: solid 2px $violeta;
+        }
     }
 
-    .btn {
-        margin-top: 20px;
-        border: solid 2px $violeta;
-    }
-}
-
-.fototaller {
-    padding-top: 30px;
-    padding-left: 80px;
-}
-
-.textosismolab {
-    padding-left: 80px;
-    padding-top: 70px;
-
-    h2 {
-        font-family: $fontbold;
-        font-size: $large;
+    .fototaller {
+        padding-top: 30px;
+        padding-left: 40px;
     }
 
-    h3 {
-        font-family: $fontmed;
-        font-size: $small;
-        margin-top: 30px;
-        text-align: justify;
-        padding-right: 80px;
+    .textosismolab {
+        padding-left: 40px;
+        padding-top: 60px;
+
+        h2 {
+            font-family: $fontbold;
+            font-size: $large;
+        }
+
+        h3 {
+            font-family: $fontmed;
+            font-size: $small;
+            margin-top: 30px;
+            text-align: justify;
+            padding-right: 40px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            border: solid 2px $violeta;
+        }
     }
 
-    .btn {
-        margin-top: 20px;
-        border: solid 2px $violeta;
+    .fotosismolab {
+        padding-top: 30px;
+        padding-left: 40px;
     }
-}
-
-.fotosismolab {
-    padding-top: 30px;
-    padding-left: 80px;
 }
 
 //galeria

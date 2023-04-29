@@ -180,7 +180,6 @@ main .sesiones h3 {
 main .sesiones .btn {
   margin-top: 30px;
   padding-left: 0px;
-  height: 60%;
   padding-bottom: 40px;
 }
 main .sesiones .fotosesiones img {
@@ -188,75 +187,74 @@ main .sesiones .fotosesiones img {
   padding-right: 50px;
 }
 
-.textoactividades {
-  padding-left: 80px;
-  padding-top: 80px;
+.actividades {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.textoactividades img {
+.actividades .textoactividades {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.actividades .textoactividades img {
   height: 23%;
   margin-top: 60px;
 }
-.textoactividades h3 {
+.actividades .textoactividades h3 {
   font-family: Rubik-Medium;
   font-size: 18px;
   margin-top: 30px;
-  padding-right: 80px;
+  padding-right: 40px;
   text-align: justify;
 }
-
-.fotopulmonabierto {
-  padding-top: 80px;
-  padding-left: 80px;
+.actividades .fotopulmonabierto {
+  padding-top: 40px;
+  padding-left: 40px;
 }
-
-.textotalleres {
-  padding-left: 80px;
+.actividades .textotalleres {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.actividades .textotalleres h2 {
+  font-family: Rubik-Bold;
+  font-size: 25px;
+}
+.actividades .textotalleres h3 {
+  font-family: Rubik-Medium;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: justify;
+  padding-right: 40px;
+}
+.actividades .textotalleres .btn {
+  margin-top: 20px;
+  border: solid 2px #3464cc;
+}
+.actividades .fototaller {
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.actividades .textosismolab {
+  padding-left: 40px;
   padding-top: 60px;
 }
-.textotalleres h2 {
+.actividades .textosismolab h2 {
   font-family: Rubik-Bold;
   font-size: 25px;
 }
-.textotalleres h3 {
+.actividades .textosismolab h3 {
   font-family: Rubik-Medium;
   font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 80px;
+  padding-right: 40px;
 }
-.textotalleres .btn {
+.actividades .textosismolab .btn {
   margin-top: 20px;
   border: solid 2px #3464cc;
 }
-
-.fototaller {
+.actividades .fotosismolab {
   padding-top: 30px;
-  padding-left: 80px;
-}
-
-.textosismolab {
-  padding-left: 80px;
-  padding-top: 70px;
-}
-.textosismolab h2 {
-  font-family: Rubik-Bold;
-  font-size: 25px;
-}
-.textosismolab h3 {
-  font-family: Rubik-Medium;
-  font-size: 18px;
-  margin-top: 30px;
-  text-align: justify;
-  padding-right: 80px;
-}
-.textosismolab .btn {
-  margin-top: 20px;
-  border: solid 2px #3464cc;
-}
-
-.fotosismolab {
-  padding-top: 30px;
-  padding-left: 80px;
+  padding-left: 40px;
 }
 
 .carousel-item {
