@@ -85,19 +85,21 @@
   text-transform: uppercase;
 }
 
+#contacto {
+  padding: 40px;
+}
 #contacto h2 {
   color: black;
   font-family: Rubik-Bold;
   font-size: 20px;
   text-transform: initial;
-  padding-top: 40px;
-  padding-left: 50px;
+  padding-left: 20px;
   margin-bottom: 0;
 }
 #contacto .formulario {
   font-family: Rubik-Regular;
   font-size: 16px;
-  padding: 50px;
+  padding: 20px;
 }
 #contacto .formulario .btn-link {
   background-color: #3464cc;
@@ -115,7 +117,7 @@
   border: solid 1px black;
 }
 #contacto .mapa {
-  padding: 50px;
+  padding: 20px;
 }
 #contacto .mapa h3 {
   font-family: Rubik-Regular;

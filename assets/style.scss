@@ -131,21 +131,20 @@ $var2:50%;
 
 //contacto
 #contacto {
-
+padding: 40px;
     h2 {
         color: $negro;
         font-family: $fontbold;
         font-size: $large;
         text-transform: initial;
-        padding-top: 40px;
-        padding-left: 50px;
+        padding-left: 20px;
         margin-bottom: 0;
     }
 
     .formulario {
         font-family: $fontreg;
         font-size: $small;
-        padding: 50px;
+        padding: 20px;
 
         .btn-link {
             background-color: $violeta;
@@ -166,7 +165,7 @@ $var2:50%;
     }
 
     .mapa {
-        padding: 50px;
+        padding: 20px;
 
         h3 {
             font-family: $fontreg;
