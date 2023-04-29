@@ -1,7 +1,7 @@
 //paleta de colores 
 $negro: black;
 $blanco: white;
-$violeta:  #3464cc;
+$violeta: #3464cc;
 $gris:#5a5858;
 
 //fonts
@@ -203,6 +203,7 @@ footer {
     .logofooter {
         width: 150px;
         height: 40px;
+
         &:hover {
             background-color: $violeta;
         }
