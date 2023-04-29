@@ -198,7 +198,7 @@ $var2:50%;
 
 //footer
 footer {
-    margin-top: 30px;
+    padding-top: 30px;
 
     .logofooter {
         width: 150px;
@@ -224,33 +224,37 @@ footer {
 }
 
 //sesiones
-.sesiones {
-    margin-top: 80px;
+main .sesiones {
+    background-color: $negro;
+    padding-top: 80px;
+    border-top: solid 2px $violeta;
 
 
     .textosesiones img {
-        height: 18%;
-        margin-left: 80px;
+        margin-left: 60px;
     }
 
     h3 {
+        color: $blanco;
         font-family: $fontmed;
         font-size: $small;
         margin-top: 30px;
         text-align: justify;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+        
     }
 
     .btn {
         margin-top: 30px;
         padding-left: 0px;
         height: 60%;
+        padding-bottom: 40px;
     }
 
     .fotosesiones img {
-        padding-left: 80px;
-        padding-right: 60px;
+        padding-left: 60px;
+        padding-right: 50px;
 
     }
 }
@@ -258,7 +262,7 @@ footer {
 //actividades
 
 .textoactividades {
-    padding-left: 90px;
+    padding-left: 80px;
     padding-top: 80px;
 
     img {
@@ -270,18 +274,18 @@ footer {
         font-family: $fontmed;
         font-size: $small;
         margin-top: 30px;
-        padding-right: 90px;
+        padding-right: 80px;
         text-align: justify;
     }
 }
 
 .fotopulmonabierto {
     padding-top: 80px;
-    padding-left: 90px;
+    padding-left: 80px;
 }
 
 .textotalleres {
-    padding-left: 90px;
+    padding-left: 80px;
     padding-top: 60px;
 
     h2 {
@@ -294,7 +298,7 @@ footer {
         font-size: $small;
         margin-top: 30px;
         text-align: justify;
-        padding-right: 90px;
+        padding-right: 80px;
     }
 
     .btn {
@@ -305,7 +309,7 @@ footer {
 
 .fototaller {
     padding-top: 30px;
-    padding-left: 90px;
+    padding-left: 80px;
 }
 
 .textosismolab {
@@ -322,7 +326,7 @@ footer {
         font-size: $small;
         margin-top: 30px;
         text-align: justify;
-        padding-right: 90px;
+        padding-right: 80px;
     }
 
     .btn {
@@ -333,7 +337,7 @@ footer {
 
 .fotosismolab {
     padding-top: 30px;
-    padding-left: 90px;
+    padding-left: 80px;
 }
 
 //galeria

@@ -141,7 +141,7 @@
 }
 
 footer {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 footer .logofooter {
   width: 150px;
@@ -160,33 +160,36 @@ footer .btn:hover {
   border-radius: 3px;
 }
 
-.sesiones {
-  margin-top: 80px;
+main .sesiones {
+  background-color: black;
+  padding-top: 80px;
+  border-top: solid 2px #3464cc;
 }
-.sesiones .textosesiones img {
-  height: 18%;
-  margin-left: 80px;
+main .sesiones .textosesiones img {
+  margin-left: 60px;
 }
-.sesiones h3 {
+main .sesiones h3 {
+  color: white;
   font-family: Rubik-Medium;
   font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
-.sesiones .btn {
+main .sesiones .btn {
   margin-top: 30px;
   padding-left: 0px;
   height: 60%;
+  padding-bottom: 40px;
 }
-.sesiones .fotosesiones img {
-  padding-left: 80px;
-  padding-right: 60px;
+main .sesiones .fotosesiones img {
+  padding-left: 60px;
+  padding-right: 50px;
 }
 
 .textoactividades {
-  padding-left: 90px;
+  padding-left: 80px;
   padding-top: 80px;
 }
 .textoactividades img {
@@ -197,17 +200,17 @@ footer .btn:hover {
   font-family: Rubik-Medium;
   font-size: 18px;
   margin-top: 30px;
-  padding-right: 90px;
+  padding-right: 80px;
   text-align: justify;
 }
 
 .fotopulmonabierto {
   padding-top: 80px;
-  padding-left: 90px;
+  padding-left: 80px;
 }
 
 .textotalleres {
-  padding-left: 90px;
+  padding-left: 80px;
   padding-top: 60px;
 }
 .textotalleres h2 {
@@ -219,7 +222,7 @@ footer .btn:hover {
   font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 90px;
+  padding-right: 80px;
 }
 .textotalleres .btn {
   margin-top: 20px;
@@ -228,7 +231,7 @@ footer .btn:hover {
 
 .fototaller {
   padding-top: 30px;
-  padding-left: 90px;
+  padding-left: 80px;
 }
 
 .textosismolab {
@@ -244,7 +247,7 @@ footer .btn:hover {
   font-size: 18px;
   margin-top: 30px;
   text-align: justify;
-  padding-right: 90px;
+  padding-right: 80px;
 }
 .textosismolab .btn {
   margin-top: 20px;
@@ -253,7 +256,7 @@ footer .btn:hover {
 
 .fotosismolab {
   padding-top: 30px;
-  padding-left: 90px;
+  padding-left: 80px;
 }
 
 .carousel-item {
