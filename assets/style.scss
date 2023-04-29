@@ -64,6 +64,7 @@ $var2:50%;
     height: 85px;
     padding-left: 40px;
     padding-right: 40px;
+    z-index: 1000;
 
     .navbar-brand {
         &:hover {
@@ -259,8 +260,8 @@ main .sesiones {
 
 //actividades
 .actividades {
-padding-top: 30px;
-padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     .textoactividades {
         padding-left: 40px;
@@ -344,9 +345,14 @@ padding-bottom: 30px;
 
 //galeria
 .carousel-item {
-    padding: 10px;
-    width: 60%;
-    margin-left: 20%;
+    @media only screen and (min-width: 1024px) {
+        padding: 40px 130px 40px 130px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 768px)and (max-width: 1023px) {
+        padding: 40px 100px 40px 100px;
+        width: 100%;
+    }
 }
 
 .galeria {
