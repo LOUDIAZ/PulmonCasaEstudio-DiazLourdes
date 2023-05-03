@@ -115,8 +115,7 @@ $var2:50%;
     height: 540px;
     width: 100%;
 
-
-    .texto {
+    .textohome {
         padding-top: 200px;
     }
 
@@ -129,9 +128,60 @@ $var2:50%;
     }
 }
 
+.multiespacio {
+    padding: 30px 100px 30px 100px;
+
+    @media only screen and (max-width:480px) {
+        padding: 30px;
+    }
+
+    h3 {
+        padding-top: 40px;
+        color: $negro;
+        font-family: $fontreg;
+        font-size: $xs;
+        text-transform: initial;
+    }
+
+    .plano {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .img-plano {
+        padding: 20px;
+        height: 330px;
+
+    }
+
+    .imagencasa {
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .img-casa {
+        padding: 30px;
+        height: 330px;
+
+        @media only screen and (max-width:480px) {
+            padding: 20px;
+            height: 250px;
+        }
+    }
+
+    h2 {
+        padding-top: 40px;
+        color: $negro;
+        font-family: $fontmed;
+        font-size: $med;
+        text-transform: initial;
+    }
+}
+
 //contacto
 #contacto {
-padding: 40px;
+    padding: 40px;
+
     h2 {
         color: $negro;
         font-family: $fontbold;
@@ -368,13 +418,29 @@ main .sesiones {
 }
 
 //artistas
+.textoartistas {
+    padding: 40px 80px 0px 80px;
+
+    h2 {
+        font-family: $fontbold;
+        font-size: $large;
+    }
+
+    h3 {
+        font-family: $fontmed;
+        font-size: $med;
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+
 .artistas {
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 200px);
-    padding: 40px;
+    padding: 30px;
     grid-gap: 25px;
     font-size: $med;
     font-family: $fontmed;
@@ -437,10 +503,9 @@ main .sesiones {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-
     @media only screen and (min-width: 1024px) {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 200px);
-        padding: 90px;
+        padding: 30px 80px 60px 80px;
     }
 }

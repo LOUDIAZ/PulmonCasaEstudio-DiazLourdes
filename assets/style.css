@@ -74,7 +74,7 @@
   height: 540px;
   width: 100%;
 }
-.home .texto {
+.home .textohome {
   padding-top: 200px;
 }
 .home p {
@@ -83,6 +83,51 @@
   font-size: 25px;
   text-shadow: 0 0 3px black;
   text-transform: uppercase;
+}
+
+.multiespacio {
+  padding: 30px 100px 30px 100px;
+}
+@media only screen and (max-width: 480px) {
+  .multiespacio {
+    padding: 30px;
+  }
+}
+.multiespacio h3 {
+  padding-top: 40px;
+  color: black;
+  font-family: Rubik-Regular;
+  font-size: 14px;
+  text-transform: initial;
+}
+.multiespacio .plano {
+  display: inline-flex;
+  justify-content: center;
+}
+.multiespacio .img-plano {
+  padding: 20px;
+  height: 330px;
+}
+.multiespacio .imagencasa {
+  display: inline-flex;
+  justify-content: center;
+}
+.multiespacio .img-casa {
+  padding: 30px;
+  height: 330px;
+}
+@media only screen and (max-width: 480px) {
+  .multiespacio .img-casa {
+    padding: 20px;
+    height: 250px;
+  }
+}
+.multiespacio h2 {
+  padding-top: 40px;
+  color: black;
+  font-family: Rubik-Medium;
+  font-size: 18px;
+  text-transform: initial;
 }
 
 #contacto {
@@ -290,13 +335,27 @@ main .sesiones .btn {
   background-color: #5a5858;
 }
 
+.textoartistas {
+  padding: 40px 80px 0px 80px;
+}
+.textoartistas h2 {
+  font-family: Rubik-Bold;
+  font-size: 20px;
+}
+.textoartistas h3 {
+  font-family: Rubik-Medium;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
 .artistas {
   width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 200px);
-  padding: 40px;
+  padding: 30px;
   grid-gap: 25px;
   font-size: 18px;
   font-family: Rubik-Medium;
@@ -355,6 +414,6 @@ main .sesiones .btn {
   .artistas {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 200px);
-    padding: 90px;
+    padding: 30px 80px 60px 80px;
   }
 }/*# sourceMappingURL=style.css.map */
